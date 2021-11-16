@@ -49,12 +49,12 @@ nav a {
 
 /* Jumbotron */
 
-section.jumbotron {
+.main__jumbotron {
   background: url("/img/first-block-bg.png") center/cover no-repeat;
   height: 504px;
 }
 
-section.jumbotron h1 {
+.main__jumbotron h1 {
   color: #fff;
   font-size: 72px;
   line-height: 84px;
