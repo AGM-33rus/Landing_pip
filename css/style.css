@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header__container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header__green {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+/* Header */
+
+header {
+  background-color: #007765;
+  height: 84px;
+}
+
+header img {
+  margin: 20px 0;
+  display: inline-block;
+  width: 184px;
+  height: 45px;
+}
+
+nav {
+  margin: 28px 0;
+  display: inline-block;
+  float: right;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* Jumbotron */
+
+section.jumbotron {
+  background: url("/img/first-block-bg.png") center/cover no-repeat;
+  height: 504px;
+}
+
+section.jumbotron h1 {
+  color: #fff;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  position: relative;
+  top: 160px;
+}
+
+/* The problem */
+
+section.the__problem {
+  background-color: #eee;
+  height: 719px;
+  padding-top: 48px;
+}
+
+section.the__problem h2 {
+  margin-bottom: 16px;
+}
+
+section.the__problem p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+/* Hero */
+
+section.hero {
+  background: url("/img/hero__bg.png") center/cover no-repeat;
+  height: 483px;
+  padding-top: 128px;
+}
+
+.hero__inner {
+  width: 893px;
+  margin: 0 auto;
+}
+
+section.hero p {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+/* PPC */
+
+section.ppc {
+  height: 604px;
+  padding-top: 48px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+section.ppc h2 {
+  margin-bottom: 16px;
+}
+
+.ppc__inner {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.ppc__logo {
+  height: 115px;
+  width: 115px;
+  background: url("/img/PPC__Logo.png") center/100% no-repeat;
+}
+
+.ppc__logo-text {
+  margin-left: 48px;
+  width: 930px;
+}
+
+/* Team */
+
+section.team {
+  background-color: #eee;
+  padding-top: 48px;
+}
+
+.card {
+  width: 350px;
+  height: 283px;
+  display: inline-block;
+  padding: 40px 0;
+}
+
+.card__image-1 {
+  background: url("/img/1.png");
+}
+.card__image-2 {
+  background: url("/img/2.png");
+}
+.card__image-3 {
+  background: url("/img/3.png");
+}
+.card__image-4 {
+  background: url("/img/4.png");
+}
+.card__image-5 {
+  background: url("/img/5.png");
+}
+.card__image-6 {
+  background: url("/img/6.png");
+}
+
+.card__image {
+  display: block;
+  width: 168px;
+  height: 168px;
+  margin: 0 auto;
+}
+
+section.team h6 {
+  margin-top: 12px;
+  color: #007765;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+section.team p {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  height: 176px;
+  padding-top: 48px;
+}
+
+.footer__inner {
+  margin: 0 auto;
+  width: 540px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #ffffff;
+}
